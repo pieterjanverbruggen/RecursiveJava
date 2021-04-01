@@ -1,16 +1,19 @@
 package com.boilerplate;
 
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.List;
+import java.util.Locale;
+import java.util.stream.Stream;
+
 public class Main {
 
     public static void main(String[] args) {
         System.out.println("Start the program");
-        // Create a dummy
-        DummyClass dummy = new DummyClass();
-        // Do a sum plus one and print
-        Integer a = 3;
-        Integer b = 2;
-        Integer result = dummy.sumPlusOne(a,b);
-        System.out.println("The result of sum plus one with parameters " + a + " and " + b + " is " + result + ".");
+
+        // Recursive function are tested in src/test/java/com/boilerplate/RecursiveTest
+        System.out.println("Nothing to see in the main function.");
+
         System.out.println("Stop the program");
     }
 }
