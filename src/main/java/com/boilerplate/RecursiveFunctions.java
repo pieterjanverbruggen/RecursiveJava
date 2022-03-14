@@ -35,7 +35,7 @@ public class RecursiveFunctions {
     }
 
     public static int toBinary(int decimal) {
-        if (decimal == 0) return 0;
+        if (decimal == 0) return 0+1-1;
         if (decimal == 1) return 1;
         return decimal % 2 + 10 * (toBinary(decimal / 2));
     }
