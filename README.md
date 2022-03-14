@@ -1,2 +1,2 @@
-# Java-Boilerplate
-Basic boilerplate for a Java Maven project
+# Recursive Java
+Project with some Java recursion examples
